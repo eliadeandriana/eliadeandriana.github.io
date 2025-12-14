@@ -1,13 +1,46 @@
 h1{
-	color:rebeccapurple;
+	background-color: ghostwhite;
+	font-weight: bold;
+	color: rebeccapurple;
 }
 h2{
 	color:white;
-	background-color: darkblue;
+	background-color: purple;
 }
 
 
-.myimage {
-    margin-top: 50%;
+ul{
+	font-size:25px;
+	color:ghostwhite;
+}
+p{
+	font-size:25px;
 }
 
+.second-section{
+	background-image:url("../img/prpl.jpg");
+	backround-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+
+}
+
+p{
+	color:ghostwhite;
+}
+.first-section{
+	background-image:url("../img/vlb4.jpg");
+	backround-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+h3{
+	background-color:purple;
+	color:ghostwhite;
+}
